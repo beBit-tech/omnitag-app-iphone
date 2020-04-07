@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		9B06CED1238D031400E7A494 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B06CED0238D031400E7A494 /* MenuItem.swift */; };
 		9B1A728A2391245600C8918B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1A72892391245600C8918B /* SecondViewController.swift */; };
+		9B7BC325243C3E2F00C50D47 /* OmniSegment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7BC324243C3E2F00C50D47 /* OmniSegment.framework */; };
+		9B7BC326243C3E3900C50D47 /* OmniSegment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7BC324243C3E2F00C50D47 /* OmniSegment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9B7D6BF52387B62400CDA886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D6BF42387B62400CDA886 /* AppDelegate.swift */; };
 		9B7D6BF72387B62400CDA886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D6BF62387B62400CDA886 /* ViewController.swift */; };
 		9B7D6BFA2387B62400CDA886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7D6BF82387B62400CDA886 /* Main.storyboard */; };
 		9B7D6BFC2387B62500CDA886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7D6BFB2387B62500CDA886 /* Assets.xcassets */; };
 		9B7D6BFF2387B62500CDA886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7D6BFD2387B62500CDA886 /* LaunchScreen.storyboard */; };
-		9B83CBC0243C1E3C0090DF8E /* OmniSegment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B83CBBF243C1E3C0090DF8E /* OmniSegment.framework */; };
-		9B83CBC1243C1E940090DF8E /* OmniSegment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B83CBBF243C1E3C0090DF8E /* OmniSegment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9B83CBC1243C1E940090DF8E /* OmniSegment.framework in Embed Frameworks */,
+				9B7BC326243C3E3900C50D47 /* OmniSegment.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +37,7 @@
 		9B1A72832391176500C8918B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		9B1A72842391176500C8918B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		9B1A72892391245600C8918B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9B7BC324243C3E2F00C50D47 /* OmniSegment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OmniSegment.framework; sourceTree = "<group>"; };
 		9B7D6BF12387B62400CDA886 /* omnisegment-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omnisegment-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7D6BF42387B62400CDA886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7D6BF62387B62400CDA886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		9B7D6BFB2387B62500CDA886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B7D6BFE2387B62500CDA886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7D6C002387B62500CDA886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B83CBBF243C1E3C0090DF8E /* OmniSegment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OmniSegment.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B83CBC0243C1E3C0090DF8E /* OmniSegment.framework in Frameworks */,
+				9B7BC325243C3E2F00C50D47 /* OmniSegment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		9B963FD9243B17C200D4F907 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B83CBBF243C1E3C0090DF8E /* OmniSegment.framework */,
+				9B7BC324243C3E2F00C50D47 /* OmniSegment.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

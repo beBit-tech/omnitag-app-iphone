@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "CzY-Qu-MC4"; */
+"CzY-Qu-MC4.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Checkout"; ObjectID = "ZBH-Ne-Kbi"; */
+"ZBH-Ne-Kbi.text" = "Checkout";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "Zez-2U-ewr"; */
+"Zez-2U-ewr.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = "Choose One"; ObjectID = "jKZ-St-tTR"; */
+"jKZ-St-tTR.normalTitle" = "Choose One";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ohJ-Cv-ycP"; */
+"ohJ-Cv-ycP.normalTitle" = "Cancel";

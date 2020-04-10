@@ -287,6 +287,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                                                                    PayloadType.PRODUCT_ACTION : "custom_product_action",
                                                                                    DataType.PRODUCTS : products])
         }))
+        
+        menuItems.append(MenuItem.init(title: "Send local notification", callback: {
+            let content = UNMutableNotificationContent()
+            content.title = "title：測試本地通知 Title"
+            content.subtitle = "subtitle：測試 subtitle"
+            content.body = "body：測試 body"
+            content.badge = 1
+            content.sound = UNNotificationSound.default
+            // 設置點擊通知後取得的資訊
+            content.userInfo = ["omnisegment_tuid" : "53bc481c-5808-4375-8caa-c780429758d2_1_3"]
+            
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: "notification", content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: {error in
+                print("成功建立通知...")
+            })
+        }))
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {

@@ -64,10 +64,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
         self.selectButton.setTitle(currSelect, for: .normal)
-        OmniSegmentService.sharedInstance.logEvent(hit_type: HitType.EVENT, dict: [PayloadType.EVENT_ACTION : EventActionType.CLICK_CHECKOUT,
-                                                                               PayloadType.PRODUCT_ACTION : "custom_product_action",
-                                                                               PayloadType.CHECKOUT_STEP_OPTION : currSelect,
-                                                                               PayloadType.CHECKOUT_STEP : self.currRow])
+        OmniSegmentService.sharedInstance.logEvent(hit_type: HitType.EVENT, dict: [
+                                                    PayloadType.EVENT_ACTION : EventActionType.CLICK_CHECKOUT,
+                                                    PayloadType.CHECKOUT_STEP_OPTION : currSelect,
+                                                    PayloadType.CHECKOUT_STEP : self.currRow])
     }
     
     @IBAction func selectViewCancelAction(_ sender: Any) {
